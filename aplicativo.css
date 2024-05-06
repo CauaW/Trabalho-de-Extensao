@@ -1,3 +1,31 @@
+/* Adicione o código CSS fornecido anteriormente */
+
+/* Estilizando as imagens dentro das listas de afazeres */
+#todo-list-1 li,
+#todo-list-2 li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#todo-list-1 li img,
+#todo-list-2 li img {
+    width: 135px; /* Defina a largura desejada para as imagens */
+    height: 135px; /* Defina a altura desejada para as imagens */
+    margin-bottom: 5px; /* Adiciona um espaço entre a imagem e o texto */
+}
+
+/* Adicionando estilos para a divisão em duas colunas */
+.tasks-container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 0 10px;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -29,4 +57,28 @@ li {
  
 li:hover {
     background-color: #f0f0f0;
+}
+
+
+/* Adicione o código CSS fornecido anteriormente */
+/* Posicionando os painéis */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px; /* Adiciona um espaçamento externo aos painéis */
+}
+
+.panel-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.panel {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.panel:last-child {
+    margin-left: 500px; /* Adiciona um espaço entre os painéis */
 }

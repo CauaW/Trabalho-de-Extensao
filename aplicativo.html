@@ -4,26 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Afazeres</title>
+    <title>Agendamentos</title>
     <link rel="stylesheet" href="aplicativo.css">
 </head>
 
 <body>
     <div class="container">
-        <h1>Lista de afazeres</h1>
-        <ul id="todo-list">
-            <li onclick="playSound('sound1')">Tarefa 1</li>
-            <li onclick="playSound('sound2')">Tarefa 2</li>
-            <li onclick="playSound('sound3')">Tarefa 3</li>
-            <!-- Adicione mais itens conforme necessário -->
-        </ul>
-        <audio id="sound1" src="som1.mp3"></audio>
-        <audio id="sound2" src="som2.mp3"></audio>
-        <audio id="sound3" src="som3.mp3"></audio>
-        <!-- Adicione mais elementos de áudio e associe a sons diferentes -->
+        <div class="panel-container">
+            <div class="panel">
+                <h1>Agendamentos</h1>
+                <div class="tasks-container">
+                    <div class="column">
+                        <ul id="todo-list-1">
+                            <li>
+                                <img src="img/banheiro.png" alt="banheiro">
+                                Ir ao banheiro
+                            </li>
+                            <li>
+                                <img src="img/avisos.jpg" alt="avisos">
+                                Avisos
+                            </li>
+                            <li>
+                                <img src="img/caminhar.jpg" alt="Caminhar">
+                                Caminhar
+                            </li>
+                            <!-- Adicione mais itens conforme necessário -->
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <ul id="todo-list-2">
+                            <li>
+                                <img src="img/comer.png" alt="Comer">
+                                Comer
+                            </li>
+                            <li>
+                                <img src="img/estudar.jpg" alt="Estudar">
+                                Estudar
+                            </li>
+                            <li>
+                                <img src="img/lazer.png" alt="Lazer">
+                                Lazer
+                            </li>
+                            <!-- Adicione mais itens conforme necessário -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <h1>Emoções</h1>
+                <!-- Adicione aqui os elementos para as emoções -->
+            </div>
+        </div>
     </div>
 
-    <script src="java.js"></script>
 </body>
 
 </html>
