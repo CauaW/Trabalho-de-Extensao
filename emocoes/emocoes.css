@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.centered-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.centered-content figcaption {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.centered-text {
+    margin-top: 20px;
+    font-size: 2em;
+    color: #333;
+}

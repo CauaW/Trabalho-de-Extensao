@@ -1,8 +1,8 @@
-/* Adicione o código CSS fornecido anteriormente */
-
 /* Estilizando as imagens dentro das listas de afazeres */
 #todo-list-1 li,
-#todo-list-2 li {
+#todo-list-2 li,
+#emotion-list-1 li,
+#emotion-list-2 li {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,7 +10,9 @@
 }
 
 #todo-list-1 li img,
-#todo-list-2 li img {
+#todo-list-2 li img,
+#emotion-list-1 li img,
+#emotion-list-2 li img {
     width: 135px; /* Defina a largura desejada para as imagens */
     height: 135px; /* Defina a altura desejada para as imagens */
     margin-bottom: 5px; /* Adiciona um espaço entre a imagem e o texto */
@@ -32,35 +34,33 @@ body {
     margin: 0;
     padding: 0;
 }
- 
+
 .container {
     max-width: 600px;
     margin: 50px auto;
     text-align: center;
 }
- 
+
 h1 {
     color: #333;
 }
- 
+
 ul {
     list-style-type: none;
     padding: 0;
 }
- 
+
 li {
     background-color: #fff;
     padding: 10px;
     margin-bottom: 5px;
     cursor: pointer;
 }
- 
+
 li:hover {
     background-color: #f0f0f0;
 }
 
-
-/* Adicione o código CSS fornecido anteriormente */
 /* Posicionando os painéis */
 .container {
     display: flex;
